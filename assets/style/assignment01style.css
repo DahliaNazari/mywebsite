@@ -1,0 +1,65 @@
+body{font-family:"Josefin Sans"; text-decoration:none;background-color:rgb(238, 246, 223);}
+section{padding-left:40px; text-decoration:none; background-color:rgb(238, 246, 223)}
+footer{padding-left:40px; padding-top:2px; padding-bottom:2px; margin-top:820px; background:rgb(140, 189, 129); font-size:18px; font-family: "Josefin Sans";}
+
+.navbar{background:grey; font-family: "Josefin Sans"; padding-top:10px; padding-bottom: 0px;}
+.logo a{font-size: 30px; color: white; padding-left:20px;}
+.logo a:hover{color: black;}
+.desc {font-size: 14px; color:black; display:inline-block;}
+.navlist {display: inline-block; padding-left:620px;}
+.navlist li{list-style: none; display: inline-block;}
+.navlist li a{color:white; font-size:23px; margin-right:20px;}
+.glyphicons{float:right; display: inline-block; padding-right:20px;}
+.glyphicons li{list-style: none; display: inline-block;}
+.glyphicons li a{color:white; font-size:20px; margin-top:8px;}
+
+
+.card{margin-top:35px; margin-left:35px; margin-right:35px;}
+.card li{list-style: none;position: relative;padding-left: 20px;}
+
+.mycol1{border-radius:5px 40px 5px;;background-color:rgb(206, 216, 188);}
+.mycol1 img{border-radius: 40px 5px 40px;margin-top: 35px; margin-left:40px;}
+.mycol1 h4{color:black;font-weight:bold; text-decoration:underline; margin-left:40px; margin-bottom:0px;}
+.mycol1 h4 a{color:black;font-weight:bold; text-decoration:underline; margin-left:0px;}
+
+.mycol2 img{border-radius: 12px 12px 12px;margin-left:100px;}
+.mycol2 h2{margin-left:400px;margin-right:420px}
+.mycol2 p{font-size: 15.5px;padding-left: 50px; padding-right:70px; margin-left:65px; margin-right:70px; padding-bottom:50px;}
+
+.timeline{
+	font-size:15px; font-family:"Courier New",monospace;
+	position:relative; padding:20px 0; margin:0 auto; max-width:800px}
+
+.timeline li{
+	list-style:none; position:relative; width:46%;
+	padding:15px; margin-bottom:30px; box-sizing:border-box;}
+
+.timeline li:nth-child(odd){float:left; clear:both; border-right:2px solid rgb(35, 155, 86);}
+.timeline li:nth-child(even){float:right; clear:both; text-align:left; border-left:2px solid rgb(35, 155, 86);}
+.timeline li:nth-child(odd)::before{left:-30px;}
+.timeline li:nth-child(even)::before{left:-30px;}
+
+.year{color:white; font-family:"Courier New",monospace; font-weight:bold; padding:5px 10px; border-radius:4px; display:inline-block;}
+.timeline p{color:black; font-size:16.5px; font-family:"Josefin Sans"; margin-bottom:-8px; padding-top:5px; padding-left:10px;}
+.timeline pre{color:black; font-size:14.3px; font-family:"Josefin Sans";margin-bottom:-8px; padding-left:10px;}
+.container1{background-color:rgb(143, 186, 68); width:293px; border-radius:40px 40px 40px; margin-top:-5px;}
+.container2{background-color:rgb(162, 203, 148); width:285px; border-radius:7px 10px 40px; margin-top:-5px; margin-left:5px;}
+
+/*projects.html css*/
+main{padding-top:90px; padding-left:50px; padding-right:50px;}
+
+.containergrid{
+	display:grid; grid-template-areas:"header header" "project content" "footer footer";
+	grid-template-columns: 1fr 3fr; gap:5px; background-color:rgb(157, 193, 144); padding:10px;}
+
+.containergrid div{background-color: rgb(212, 238, 207); padding: 15px;}
+.containergrid .desc1{padding-top:100px;}
+.containergrid .desc2{padding-top:400px;}
+.containergrid .pic1 .pic2 .pic3{display:inline-block;}
+.containergrid .pic1 {margin-right:20px;}
+.containergrid .pic2 {margin-right:20px;}
+.containergrid .pic4 {display:block; margin-right:auto; margin-left:auto;}
+.containergrid div.header{grid-area:header; text-align:center; padding:0px;}
+.containergrid div.project{grid-area:project;}
+.containergrid div.content{grid-area:content; padding-top:0px;}
+.containergrid div.footer{grid-area:footer;}
