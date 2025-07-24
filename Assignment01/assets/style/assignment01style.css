@@ -45,6 +45,21 @@ footer{padding-left:40px; padding-top:2px; padding-bottom:2px; margin-top:820px;
 .container1{background-color:rgb(143, 186, 68); width:293px; border-radius:40px 40px 40px; margin-top:-5px;}
 .container2{background-color:rgb(162, 203, 148); width:285px; border-radius:7px 10px 40px; margin-top:-5px; margin-left:5px;}
 
-h3{margin-top:5px;}
-ol li a{color:black; display:inline-block; display:inline-block;}
-.socials{padding-left:20px; display:inline-flex; gap:30px;}
+/*projects.html css*/
+main{padding-top:90px; padding-left:50px; padding-right:50px;}
+
+.containergrid{
+	display:grid; grid-template-areas:"header header" "project content" "footer footer";
+	grid-template-columns: 1fr 3fr; gap:5px; background-color:rgb(157, 193, 144); padding:10px;}
+
+.containergrid div{background-color: rgb(212, 238, 207); padding: 15px;}
+.containergrid .desc1{padding-top:100px;}
+.containergrid .desc2{padding-top:400px;}
+.containergrid .pic1 .pic2 .pic3{display:inline-block;}
+.containergrid .pic1 {margin-right:20px;}
+.containergrid .pic2 {margin-right:20px;}
+.containergrid .pic4 {display:block; margin-right:auto; margin-left:auto;}
+.containergrid div.header{grid-area:header; text-align:center; padding:0px;}
+.containergrid div.project{grid-area:project;}
+.containergrid div.content{grid-area:content; padding-top:0px;}
+.containergrid div.footer{grid-area:footer;}
